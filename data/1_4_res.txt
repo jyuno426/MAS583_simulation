@@ -1,0 +1,10 @@
+full sample:
+Mean: -1.002897, Variance: 0.006198
+missing_at_random:
+Mean: -1.041197, Variance: 0.011003
+fully_parametric:
+Mean: -1.041106, Variance: 0.008247
+gaussian_mixture:
+Mean: -0.998271, Variance: 0.021140
+new_method:
+Mean: -0.998177, Variance: 0.019446

@@ -4,7 +4,7 @@ import numpy as np
 
 
 eps = 1e-5
-n = 100
+n = 200
 m = 100  # number of monte carlo samples for mcem
 phi_true = [0.8, -0.2]
 
