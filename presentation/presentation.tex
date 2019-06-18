@@ -79,6 +79,14 @@
 \usepackage{bm} % bold in math
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\urlstyle{same}
 
 \newcommand{\ifnf}{\Leftrightarrow}
 \newcommand{\bra}[1]{\left(#1\right)}
@@ -345,6 +353,7 @@ Applying this two importance sampling approximations to the original equation, w
 \begin{figure}
 \includegraphics[width=1\linewidth]{res1.jpg}
 \end{figure}
+\centerline{\tiny{Implemented with python, source-code: \url{https://github.com/jyuno426/MAS583_simulation}}}
 \end{frame}
 \begin{frame}
 \frametitle{Simulation Study}
@@ -352,6 +361,7 @@ Applying this two importance sampling approximations to the original equation, w
 \begin{figure}
 \includegraphics[width=1\linewidth]{res2.jpg}
 \end{figure}
+\centerline{\tiny{Implemented with python, source-code: \url{https://github.com/jyuno426/MAS583_simulation}}}
 \end{frame}
 \begin{frame}
 \frametitle{Simulation Study}
@@ -359,6 +369,7 @@ Applying this two importance sampling approximations to the original equation, w
 \begin{figure}
 \includegraphics[width=1\linewidth]{res3.jpg}
 \end{figure}
+\centerline{\tiny{Implemented with python, source-code: \url{https://github.com/jyuno426/MAS583_simulation}}}
 \end{frame}
 
 \begin{frame}
@@ -378,7 +389,7 @@ Applying this two importance sampling approximations to the original equation, w
 \frametitle{Conclusion and Remarks}
 \begin{itemize}
 \item New MLE method for nonignorable nonresponse.\smallskip
-\item It is based on \e{f\bra{y|x,\delta=1}} and the result is not sensitive. In the simulation we use normal distribution for \e{f\bra{y|x,\delta=1}}, but the resulting estimates are nearly unbiased.\smallskip
+\item It is based on \e{f\bra{y|x,\delta=1}} and the result is not sensitive. In the simulation, we use normal distribution for \e{f\bra{y|x,\delta=1}} which is uncorrectly specified, but the resulting estimates are nearly unbiased.\smallskip
 \item It is efficient since it is based on MLE approach. However, it doesn't necessarily satisfy the calibration constraints, so there is still room for improvement.\smallskip
 \item It provides consistent estimates for the standard errors. Thus, we can test the null hypothesis that the response mechanism is ignorable. So, we can do some pretest procedure, and furthre investigation on this direction will be a topic of future research.
 \end{itemize}
