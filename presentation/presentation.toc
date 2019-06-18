@@ -1,7 +1,0 @@
-\beamer@sectionintoc {1}{Introduction and Basic Setup}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Propensity Score Method for Nonresponse}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Existing Methods}{5}{0}{1}
-\beamer@sectionintoc {2}{Proposed Method}{7}{0}{2}
-\beamer@sectionintoc {3}{Asymptotic Properties}{13}{0}{3}
-\beamer@sectionintoc {4}{Simulation Study}{16}{0}{4}
-\beamer@sectionintoc {5}{Conclusion and Remarks}{26}{0}{5}
